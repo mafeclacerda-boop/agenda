@@ -1,0 +1,26 @@
+{
+  "name": "Cultivar — planejamento semanal",
+  "short_name": "Cultivar",
+  "description": "Transforme objetivos pessoais em pequenas ações diárias e semanais.",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./#/hoje",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f3ea",
+  "theme_color": "#f7f3ea",
+  "categories": ["productivity", "lifestyle"],
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Hoje", "url": "./#/hoje" },
+    { "name": "Minha semana", "url": "./#/semana" },
+    { "name": "Meus objetivos", "url": "./#/objetivos" }
+  ]
+}
